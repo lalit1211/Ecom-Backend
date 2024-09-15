@@ -12,7 +12,7 @@ const app = express()
 
 // USING ENVIRONMENT VARIABLE
 dotenv.config({
-    path : "./config/.env"
+    path : "./.env"
 })
 
 // MIDDLEWARES

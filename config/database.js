@@ -1,9 +1,10 @@
 const mongoose = require('mongoose')
+const dotenv = require("dotenv")
 
 const connectDB = ()=>{
     mongoose
 		.connect(
-			"mongodb+srv://lalitpratapsingh2002:lalit123@cluster0.xej91.mongodb.net/",
+			process.env.DB_URI
 		)
 		.then(() => {
 			console.log("Database connected successfully.");
