@@ -8,7 +8,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Lalit Thakur",
-	"license": "ISC",
+	"license": "MIT",
 	"description": "",
 	"dependencies": {
 		"bcrypt": "^5.1.1",
